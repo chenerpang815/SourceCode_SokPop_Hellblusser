@@ -1,0 +1,715 @@
+{
+    "name": "myControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f5984feb-7d79-4166-a1d8-edfe05826ea8",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "50ba6cd7-4bb1-4bcc-87b5-c3d8e36230e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "9d5ee27a-fbbf-4cf5-a61c-3a21c4f1111c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Cancel",
+                    "type": "Button",
+                    "id": "50c49cb8-dbb2-41eb-95f1-5458a647231b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "048b2ec0-62b3-4aff-9af2-626fad672873",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "5d003676-8b76-48ea-9e7a-00103b0a114e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MeleeAttack",
+                    "type": "Button",
+                    "id": "5d4558a1-d849-47bc-ab61-bbcf4385b859",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MagicAttack",
+                    "type": "Button",
+                    "id": "3766c8ea-50b9-4726-920d-ff65290409d5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Kick",
+                    "type": "Button",
+                    "id": "a6987f59-7640-40c6-a7e9-830947d40e3c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Block",
+                    "type": "Button",
+                    "id": "340ffca3-46b2-46e1-a239-af786829ca6a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "a90abdef-d500-416b-a777-69617ec4910e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "e49a943e-1095-4069-80ef-30e61ee8376e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KeyHack",
+                    "type": "Button",
+                    "id": "d62100d7-8e1c-4a29-b63e-1fea1ae46303",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TimeHack",
+                    "type": "Button",
+                    "id": "f437e70e-2aa1-4c02-81b0-212ff392616c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "FullscreenHack",
+                    "type": "Button",
+                    "id": "489735d8-826c-4fea-bf8e-ce81f1f86a7b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ResolutionUpHack",
+                    "type": "Button",
+                    "id": "ae5341b0-ad85-4412-b9e8-09bccab3bbf6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ResolutionDownHack",
+                    "type": "Button",
+                    "id": "698a0ae5-9a6f-421f-88a4-ac6e406ef19e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "OutlineToggleHack",
+                    "type": "Button",
+                    "id": "d002aa40-ea01-4b76-99d7-4456954df93f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RenderScaleFactorHack",
+                    "type": "Button",
+                    "id": "701e6399-ccb7-4e18-937a-8c9b14012610",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CoinHack",
+                    "type": "Button",
+                    "id": "f6bdd6c0-bfca-43da-903b-45235ed4b369",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TearHack",
+                    "type": "Button",
+                    "id": "3fece9e4-4c0d-460c-b951-9ad3ecfdd16e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PlayerDeadHack",
+                    "type": "Button",
+                    "id": "60fa3145-7633-4b7f-a41b-9d303d848d14",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MusicToggleHack",
+                    "type": "Button",
+                    "id": "d3abcdea-0112-4d6c-b7eb-7ec84e9d2756",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PlayerUIToggleHack",
+                    "type": "Button",
+                    "id": "eafe37bf-0dd9-4ed1-990d-3831eb6d3a9e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5ce8ef56-7ca6-4cf8-bc94-026bc2f37530",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69c4f3db-cbb8-4b51-baf4-93b841a9976e",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "d7fc0e3c-ca63-419f-a7f8-d8babd8984af",
+                    "path": "2DVector(mode=1)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "dcfebc40-0b39-4c81-9976-e7f667ba7dec",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6d075c81-8f55-45bb-9082-b3b1280cf86f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "69b8fff9-33be-4a1d-9ec2-bbb951f03627",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "1f675f28-c0f1-42df-8366-fb86f2f53e36",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Arrows",
+                    "id": "6bb43c9e-e31d-47fd-9923-db9e51bd5232",
+                    "path": "2DVector(mode=1)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f037b862-631e-4c5c-adea-f4556980b01a",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "576758cb-8c27-4095-b9b2-a339b0fbc213",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "903ac29e-5e9c-43ed-b195-5dd7a68f1654",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "6c2e8564-f39b-4824-bcc8-bbe0bc380aa3",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "GamepadArrows",
+                    "id": "684834a0-722a-4974-9bb9-477e4db7d1e7",
+                    "path": "2DVector(mode=1)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "6701f6ab-d4e7-45af-8de4-f9517599cdab",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5994c526-284c-4918-a0f0-6112852b0bd0",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "e950cdbb-d56e-4be7-a330-4a4755971987",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0c8fcb8b-a241-40c4-b5c1-e1c0a41f8e3f",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "2b3c39f3-941b-4536-8d13-562713227216",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone,ScaleVector2(x=1.25,y=1.25)",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f6764dc-a195-43c3-86dd-7467122b6636",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MeleeAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b3a9747-3ccc-4ab8-b5dd-7ebfd8b62859",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MeleeAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25ec5eb5-2fc1-4402-96f1-ff1bcf409070",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1aa4a7f2-55a7-4db2-a8c1-5f9e82f9579d",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35b4fb02-8ee3-4928-856f-00917ebab736",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "60f84e31-f577-452c-a23c-0472c92b8d99",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=0.625,y=0.625)",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb7dfee2-66ea-4254-a989-69e7e63f4c5b",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone,ScaleVector2(x=4,y=4)",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d18b39b1-01f3-41a6-918c-6a6d09c0aeb8",
+                    "path": "<Keyboard>/k",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KeyHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8741d02-fff1-4976-af7d-336d1294c479",
+                    "path": "<Keyboard>/p",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TimeHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cb83de0-4a23-46d8-ab7f-117f8ea99146",
+                    "path": "<Keyboard>/f",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FullscreenHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a78f768-4ea5-4e57-ab22-d4f15033164c",
+                    "path": "<Keyboard>/u",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResolutionUpHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df238a8c-1bd8-4543-9384-6e429b902813",
+                    "path": "<Keyboard>/i",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResolutionDownHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ec28e12-3a70-4774-a5a7-387ebad45964",
+                    "path": "<Keyboard>/o",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OutlineToggleHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a81cd848-6306-4340-b108-14148f072bcf",
+                    "path": "<Keyboard>/y",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RenderScaleFactorHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "40f71cd4-d469-4b96-a8bd-a7d732e6bb1c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7c8c044-e06a-4749-8771-b74b45e3cf48",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bffbc308-ea76-49a1-bd77-a86407fad7ef",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bcd85e0d-0b29-4851-8175-f03008dc4b90",
+                    "path": "<Keyboard>/b",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CoinHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b920b8fc-fe36-4d3b-a8c4-adc672845a2b",
+                    "path": "<Keyboard>/n",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TearHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66540fad-f1ca-4bda-86d1-09af5fe2632c",
+                    "path": "<Keyboard>/x",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerDeadHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4824e550-e8fb-4dad-b0a5-86e84f5f6112",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "969478ee-3aa8-4a36-a7ae-df577937e9d1",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c34031f-9ead-4bee-b771-76922def6830",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Block",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4881eee1-8a68-436d-b10c-0a6c794ab195",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MagicAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51cf0d65-85d8-4ee6-912f-4ff8f9df3195",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MagicAttack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cf87c07-4f27-4807-a44c-44880c6fc068",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "909cbaac-9e43-4a12-9561-7692c019c92d",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac94fe78-41e8-4f79-902b-c26432747c77",
+                    "path": "<Keyboard>/m",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MusicToggleHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "586c74d2-0295-4ab6-ba14-e3f1235d6ec4",
+                    "path": "<Keyboard>/c",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerUIToggleHack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

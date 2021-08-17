@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &900374531767650253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3439074217502967231}
+  - component: {fileID: 2719306303815167990}
+  m_Layer: 0
+  m_Name: EquipmentDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3439074217502967231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900374531767650253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8509063487468752610}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2719306303815167990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900374531767650253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19f3ddfa9e9c48b9b284bc07dac6b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  copperRingVisualsObject: {fileID: 8428701346893511569, guid: 0442b1ac5e658467fa93546bcbda5ec5,
+    type: 3}
+  silverRingVisualsObject: {fileID: 8428701346893511569, guid: ca5add076cc534e69859905898258609,
+    type: 3}
+  goldRingVisualsObject: {fileID: 8428701346893511569, guid: f258abce67dbf46e3b8a4eab559c62ea,
+    type: 3}
+  copperBraceletVisualsObject: {fileID: 8428701346893511569, guid: 6538ed423e96a4ac0a51b5a99f385ca0,
+    type: 3}
+  silverBraceletVisualsObject: {fileID: 8428701346893511569, guid: 314850734148c4192ab26cc8fa6e9cec,
+    type: 3}
+  goldBraceletVisualsObject: {fileID: 8428701346893511569, guid: 0296c667668894355ac4868300416ed4,
+    type: 3}
+  blueCloakVisualsObject: {fileID: 8428701346893511569, guid: f0b073cf5dc874e929e7879a4b685392,
+    type: 3}
+  redCloakVisualsObject: {fileID: 8428701346893511569, guid: 2220bebe836a04a879954243e57106b2,
+    type: 3}
+  greenCloakVisualsObject: {fileID: 8428701346893511569, guid: c873b80d004284674a8e033685190ec1,
+    type: 3}
+  whiteCloakVisualsObject: {fileID: 8428701346893511569, guid: a3fcb8fbe27734c7ebfc8d6c36c558f9,
+    type: 3}
+  ironSwordVisualsObject: {fileID: 4857795936448096426, guid: f81a7c5c4a66d457280605e3e883a2b8,
+    type: 3}
+  silverSwordVisualsObject: {fileID: 4857795936448096426, guid: 4a52709b6669f49048a2e0082b8b9bef,
+    type: 3}
+  bronzeSwordVisualsObject: {fileID: 4857795936448096426, guid: 62b93b355e2024cef83e8856de5601fc,
+    type: 3}
+  woodenClubVisualsObject: {fileID: 4857795936448096426, guid: 2503a5313b386424882d1d86c871dfd4,
+    type: 3}
+  basicWandVisualsObject: {fileID: 4857795936448096426, guid: 902a278f94f3648c5813b14bceb7454c,
+    type: 3}
+  torchVisualsObject: {fileID: 4857795936448096426, guid: 2bace4ccfdaf842a58f4a8464270be97,
+    type: 3}
+  simpleMaceVisualsObject: {fileID: 4857795936448096426, guid: daceb2b6bf8664b87bd570480ae15660,
+    type: 3}
+  steelDaggerVisualsObject: {fileID: 4857795936448096426, guid: 65d436844105641ba9c4ebccfbae224c,
+    type: 3}
+  drainBladeVisualsObject: {fileID: 4857795936448096426, guid: 68b3b53b9f0574ad596834b258ae465c,
+    type: 3}
+  fireBladeVisualsObject: {fileID: 4857795936448096426, guid: c6dcd3b0e3223445ca7ad8437fc6b6de,
+    type: 3}
+  chargeBladeVisualsObject: {fileID: 4857795936448096426, guid: c9b0ea065bad841718828c3359ccbc32,
+    type: 3}
+  cloakOfSadnessVisualsObject: {fileID: 8428701346893511569, guid: 12ad4aa6eb5544ac6b0f5571f7a7676a,
+    type: 3}
+  sturdyCloakVisualsObject: {fileID: 8428701346893511569, guid: 216432fd51820413baef103320f5d03f,
+    type: 3}
+  sneakyCloakVisualsObject: {fileID: 8428701346893511569, guid: 20f3e6df4620449e78e838b413d1f81e,
+    type: 3}
+  knockbackBraceletVisualsObject: {fileID: 0}
+  goldBladeVisualsObject: {fileID: 4857795936448096426, guid: 1ad5138d59a934cb1871aba6a101687e,
+    type: 3}
+  ringShopSclFactor: 0
+  ringShopPosOff: {x: 0, y: 0, z: 0}
+  ringShopRotOff: {x: 0, y: 0, z: 0}
+  braceletShopSclFactor: 0
+  braceletShopPosOff: {x: 0, y: 0, z: 0}
+  braceletShopRotOff: {x: 0, y: 0, z: 0}
+  weaponShopSclFactor: 0
+  weaponShopPosOff: {x: 0, y: 0, z: 0}
+  weaponShopRotOff: {x: 0, y: 0, z: 0}
+  bodyShopSclFactor: 0
+  bodyShopPosOff: {x: 0, y: 0, z: 0}
+  bodyShopRotOff: {x: 0, y: 0, z: 0}
+  equipmentRingSprite: {fileID: 21300000, guid: 7e9f98c0a34664eeea8fd99bcbd1d901,
+    type: 3}
+  equipmentBraceletSprite: {fileID: 21300000, guid: 78bfeb153c3a14398be6129994dfc8e4,
+    type: 3}
+  equipmentWeaponSprite: {fileID: 21300000, guid: 258d33023f41940a9b1a70ead4257e6c,
+    type: 3}
+  equipmentBodySprite: {fileID: 21300000, guid: 5c812aaa57c53442b9209009b23990a7,
+    type: 3}
+  equipmentEmptySprite: {fileID: 21300000, guid: f1e48179fd35f45909e94c86ac1461af,
+    type: 3}
+  blueCloakMatA: {fileID: 2100000, guid: b94fe4301a78f438cb0cd0a5ba23e901, type: 2}
+  blueCloakMatB: {fileID: 2100000, guid: aa6cb936c95254e08a1a3754143a60b4, type: 2}
+  blueCloakMatC: {fileID: 2100000, guid: 14d95689abf004aefab257dea17a313e, type: 2}
+  redCloakMatA: {fileID: 2100000, guid: 0d768fb6116464742a83481f7c7a6c4a, type: 2}
+  redCloakMatB: {fileID: 2100000, guid: f6b68869044994b0f8aebd19731ef377, type: 2}
+  redCloakMatC: {fileID: 2100000, guid: 44eaf5b17acc449508bd40919843ddd7, type: 2}
+  greenCloakMatA: {fileID: 2100000, guid: abac61c0dec384447b84e14d507e6fb7, type: 2}
+  greenCloakMatB: {fileID: 2100000, guid: ab0a5edfb5e4342118c59170b5f394e6, type: 2}
+  greenCloakMatC: {fileID: 2100000, guid: 3a957883e069f4b9cad63f4fe0082a3f, type: 2}
+  whiteCloakMatA: {fileID: 2100000, guid: b44a99a0d08304f44a85f08ff66bbe40, type: 2}
+  whiteCloakMatB: {fileID: 2100000, guid: a0977662f9d4b46bc80db9dc4cdb9625, type: 2}
+  whiteCloakMatC: {fileID: 2100000, guid: e12219043938d4fe0be6a544d572b64f, type: 2}
+  sadnessCloakMatA: {fileID: 2100000, guid: d9ea7350a8462444c9d283744ade7080, type: 2}
+  sadnessCloakMatB: {fileID: 2100000, guid: 402ff49fec37b4c04877685c82f8cd30, type: 2}
+  sadnessCloakMatC: {fileID: 2100000, guid: 2d09638c7fbb240539f0f69e854a4b12, type: 2}
+  sturdyCloakMatA: {fileID: 2100000, guid: 906b841b8ea974f329295b50c9bdd032, type: 2}
+  sturdyCloakMatB: {fileID: 2100000, guid: 9540a94cb118946ed9c0b96ef7ea45cd, type: 2}
+  sturdyCloakMatC: {fileID: 2100000, guid: 8e3b2f5e710724d7ea3978c1b3c1ab48, type: 2}
+  sneakyCloakMatA: {fileID: 2100000, guid: f831c836380ae4d37b7bdd4d3c5a702e, type: 2}
+  sneakyCloakMatB: {fileID: 2100000, guid: f4d5bcdc0bf454fca9be0d98b7f812d0, type: 2}
+  sneakyCloakMatC: {fileID: 2100000, guid: bbea041897a214ff683688431012be9f, type: 2}
+--- !u!1 &5379537797726224265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7427501424033897069}
+  - component: {fileID: 3294638263610606761}
+  m_Layer: 0
+  m_Name: BlessingDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7427501424033897069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379537797726224265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8509063487468752610}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3294638263610606761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379537797726224265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676d46063aec54b2fa6ebf1c91aba8f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blessingCountMax: 0
+  tankHealthAdd: 0
+  glassCannonHealthSubtract: 0
+  glassCannonDamageBoost: 0
+  secondChanceHealthGain: 0
+  warriorDamageBoost: 0
+  sorcererDamageBoost: 0
+  wildFireRadiusAdd: 0
+  swiftStrikesFrameReduce: 0
+--- !u!1 &8509063487065469359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8509063487065469352}
+  - component: {fileID: 8509063487065469353}
+  m_Layer: 0
+  m_Name: VisualsDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8509063487065469352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509063487065469359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8509063487468752610}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8509063487065469353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509063487065469359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90541b7fffb134d26b105cc332ed17b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratLegMat: {fileID: 2100000, guid: 938dffdc7e7ad42e78e785e3e00155eb, type: 2}
+  ratTailMat: {fileID: 2100000, guid: 716ed4c2fabfa43c184074e33cc8545e, type: 2}
+  ratTailCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.8392135
+      outSlope: -0.8392135
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.096474946
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.2531425
+      outSlope: -1.2531425
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.059369326
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ratFootMesh: {fileID: 3369316746193770658, guid: adedf6914c7ba439286878e7a604b81e,
+    type: 3}
+  npcHitMaterials:
+  - {fileID: 2100000, guid: c30fcf8cbbae64e7ab9e183a54f6a53d, type: 2}
+  - {fileID: 2100000, guid: 59972f023a3944e83b1024d8d79b278e, type: 2}
+--- !u!1 &8509063487468752609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8509063487468752610}
+  m_Layer: 0
+  m_Name: Databases
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8509063487468752610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509063487468752609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8509063487065469352}
+  - {fileID: 7427501424033897069}
+  - {fileID: 3439074217502967231}
+  - {fileID: 6117216664202257390}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9106028453687814950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6117216664202257390}
+  - component: {fileID: 1703456923455153174}
+  m_Layer: 0
+  m_Name: NpcDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6117216664202257390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9106028453687814950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8509063487468752610}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1703456923455153174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9106028453687814950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee40265998574a99863d061a493d510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratDataAsset: {fileID: 11400000, guid: 2793c215659dd4f17bf17d534fe260eb, type: 2}
+  batDataAsset: {fileID: 11400000, guid: caf8e5693b5864f6ab4d0a6f44d43dae, type: 2}
+  goblinDataAsset: {fileID: 11400000, guid: 827b6dfc072a94fc5afa133b542ce72b, type: 2}
+  slugDataAsset: {fileID: 11400000, guid: 4af83aa3115bb4b0e969040231d4423f, type: 2}
+  smallSpiderDataAsset: {fileID: 11400000, guid: 3feed2db591854526be65e75620c3488,
+    type: 2}
+  ghostDataAsset: {fileID: 11400000, guid: 717763ada01cb4fa8a3754e202d368a3, type: 2}
+  ratWarriorDataAsset: {fileID: 11400000, guid: 428bf3b9376114d2d8a2744c9b95ac78,
+    type: 2}
+  fireMageDataAsset: {fileID: 11400000, guid: d551f8c719d0d4097a2534eae1c79f43, type: 2}
+  ratKingDataAsset: {fileID: 11400000, guid: 32877269cefd64413a5e2783eae52fd3, type: 2}
+  smallRatDataAsset: {fileID: 11400000, guid: 6418057b30dab4cb89f39c5a5abcc5c0, type: 2}
+  magicSkullDataAsset: {fileID: 11400000, guid: c93ac7a464a4d47c29aac9abdbda043d,
+    type: 2}
+  faerieDataAsset: {fileID: 11400000, guid: d6e132ccbff9d45c7903459eed0c35f0, type: 2}
+  hellLordDataAsset: {fileID: 11400000, guid: e1707916bd472411a8ab6a43be0da36b, type: 2}
+  hellPopjeDataAsset: {fileID: 11400000, guid: 3b0834ed0d70b4887bc74a45ad19fca7, type: 2}
+  hellFlyingFaceDataAsset: {fileID: 11400000, guid: e36f3db712554456b97fd80048061213,
+    type: 2}
+  skeletonDataAsset: {fileID: 11400000, guid: 4995de60572764ea7b72fbf573b0b1ed, type: 2}
+  redSkeletonDataAsset: {fileID: 11400000, guid: 61e2bed7f919942809f6531e1d6ac9ef,
+    type: 2}
+  blackSkeletonDataAsset: {fileID: 11400000, guid: 21eac304e70364ef7983fed4228300c6,
+    type: 2}
+  fireDevilDataAsset: {fileID: 11400000, guid: a3246cdff19d84c47b92a48f2dd6aebb, type: 2}
+  fireBatDataAsset: {fileID: 11400000, guid: 049a205b04a85433e941de8f24488e0d, type: 2}
+  smallFireRatDataAsset: {fileID: 11400000, guid: 29534c31c9cbd4c749c8703e7837e7a8,
+    type: 2}
+  orcWarriorDataAsset: {fileID: 11400000, guid: 865f01f61504640ae83f615b1860b0cf,
+    type: 2}
+  orcMageDataAsset: {fileID: 11400000, guid: f7c8468eae4624b74bc960dfdb67b69e, type: 2}
+  mediumSpiderDataAsset: {fileID: 11400000, guid: 0400f8f27a0e0441181e7081050fbd42,
+    type: 2}
+  bigSpiderDataAsset: {fileID: 11400000, guid: b37fe703a15404f7f9c6c80db23e0ec3, type: 2}
+  bigSlugDataAsset: {fileID: 11400000, guid: 551cc17dbdcd247c2abd8e4931654c3c, type: 2}
+  bigRatDataAsset: {fileID: 11400000, guid: 3bc2143e1b14846aba197e59f139186b, type: 2}
+  goblinMageDataAsset: {fileID: 11400000, guid: f999102ad8ef84e2183f4622e0bb42da,
+    type: 2}
+  goblinRangerDataAsset: {fileID: 11400000, guid: 349e1cf038be24a65ae426b1fe83396a,
+    type: 2}
+  goblinChieftainDataAsset: {fileID: 11400000, guid: ce38533810d4745bd9ce808b40f6a005,
+    type: 2}
+  smallRockGolemDataAsset: {fileID: 11400000, guid: 0b74470561e224466abc69bc6f7a31a5,
+    type: 2}
+  orcLeaderDataAsset: {fileID: 11400000, guid: e197bf2bf5ee74770817accaecd8387c, type: 2}

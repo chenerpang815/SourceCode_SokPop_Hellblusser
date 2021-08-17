@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d0001d9616834024e839c891bd6be5e4
+timeCreated: 1515157978
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 100
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: mini-wakuwaku
+  fontNames:
+  - mini-wakuwaku
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

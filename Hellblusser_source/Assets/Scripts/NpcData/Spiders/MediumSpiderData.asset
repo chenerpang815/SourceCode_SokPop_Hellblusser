@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb2baa52e8ed47179c60a0cad904154, type: 3}
+  m_Name: MediumSpiderData
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6768587520035478859, guid: 2a96c51b352424c7eab03da2cc6c204f, type: 3}
+  stats:
+    name: medium spider
+    strength: 1
+    health: 8
+    healthIsFire: 0
+    healFromFire: 0
+    movementSpd: 2
+    chaseStopDst: 2
+    tearDropCount: 1
+    hitForceFactor: 1
+    randomBlockChance: 0.2
+    reactBlockChance: 0.4
+    canBlockProjectiles: 0
+    canRedirectProjectiles: 0
+    hitDur: 40
+    meleeImmune: 0
+    magicImmune: 0
+    immortal: 0
+    fleeFromPlayer: 0
+    hitBoxCenterOff: {x: 0, y: 0, z: 0}
+    hitBoxScaleFac: {x: 0, y: 0, z: 0}
+    hitBoxExtraRadius: 0
+    vulnerableDur: 0
+    onlyRaakbaarWhenVulnerable: 0
+    defeatWhiteOrbOffset: {x: 0, y: 0, z: 0}
+    defeatWhiteOrbScaleFactor: 1
+    bounceIntoPlayerCheckDst: 0
+    hideOnStart: 0
+    alertDstExtra: 0
+  graphics:
+    flying: 0
+    flyHeight: 0
+    flyHeightEnterNextStage: 0
+    flyTimeFactor: 0
+    flyDstFactor: 0
+    flyLegOff: 0
+    hasWings: 0
+    wingScl: 0
+    wingMesh: {fileID: 0}
+    wingTimeFactor: 0
+    wingDstFactor: 0
+    wingSideDst: 0
+    wingUpDst: 0
+    wingFwdDst: 0
+    wingRotOff: {x: 0, y: 0, z: 0}
+    hasBody: 1
+    bodyOffset: {x: 0, y: 0.25, z: 0}
+    bodyHitFwdRot: -45
+    bodyAlertedFwdRot: 20
+    bodyAttackPrepareFwdRot: 5
+    bodyAttackDoFwdRot: -30
+    bodyBlockFwdRot: 10
+    bodySlugAnimation: 0
+    bodySlugTimeFactor: 0
+    bodySlugDstFactor: 0
+    hasHead: 1
+    headOffset: {x: 0, y: 0.05, z: 0.375}
+    headAnimTimeFactor: 1
+    headAnimDstFactor: 1
+    eyeHasFireCharge: 0
+    eyeFireChargePrefab: {fileID: 0}
+    eyeFireChargeScaleFactor: 0
+    hasLegs: 1
+    legCount: 6
+    legWidth: 0.15
+    legLength: 0.275
+    legSpaceDistance: 0.175
+    legSpreadFactor: 5
+    legRowEndSpreadFactor: 0.25
+    hipWidth: 0.125
+    kneeFwdOff: 0
+    kneeSideOff: 0
+    kneeUpOff: 0.175
+    stepRate: 8
+    stepFwdFactor: 2
+    stepUpFactor: 2
+    hasFeet: 0
+    feetScale: 0.1
+    feetMesh: {fileID: 3369316746193770658, guid: adedf6914c7ba439286878e7a604b81e,
+      type: 3}
+    hasArms: 0
+    armCount: 0
+    armWidth: 0
+    armLength: 0
+    armSpreadFactor: 0
+    armUpFac: 0
+    elbowFwdOff: 0
+    elbowSideOff: 0
+    shoulderWidth: 0
+    shoulderHeight: 0
+    hasHand: 0
+    handScale: 0
+    handMesh: {fileID: 0}
+    hasTail: 0
+    tailWidth: 0.1
+    tailWidthTipFac: 0.675
+    tailLength: 0.5
+    tailOffset: {x: 0, y: 0.15, z: -0.325}
+    tailVerAdd: 0.0325
+    hasMouth: 1
+    mouthAttackSpreadFac: 20
+    mouthAttackPrepareSpreadExtra: 0
+    mouthHitSpreadFac: 20
+    mouthBlockSpreadFac: 20
+    alertedJumpHeight: 0.5
+    alertedLegSpread: 0.175
+    alertedArmSpread: 0
+    attackPrepareHeightOff: -0.1
+    attackPrepareLegSpread: 0.175
+    attackPrepareArmSpread: 0
+    attackDoHeightOff: 0.75
+    attackDoLegSpread: 0.175
+    attackDoArmSpread: 0
+    attackDoLegFwdOff: 0.5
+    attackDoLegAnimationFwdOff: 0
+    attackDoLegAnimationUpOff: 0
+    attackDoLegAnimationSideOff: 0
+    attackDoArmFwdOff: 0
+    attackDoArmAnimationFwdOff: 0
+    attackDoArmAnimationUpOff: 0
+    attackDoArmAnimationSideOff: 0
+    attackPrepareShakeTime: {x: 40, y: 0, z: 0}
+    attackPrepareShakeDst: {x: 0.25, y: 0, z: 0}
+    mouthHasFireCharge: 0
+    mouthFireChargePrefab: {fileID: 0}
+    mouthFireChargeScaleFactor: 0
+    mouthFireChargeGrowTarget: 0
+    hitLegTimeFactor: 1
+    hitLegDstFactor: 0.075
+    hitArmTimeFactor: 0
+    hitArmDstFactor: 0
+    healthIndicatorOff: 1
+    healthIndicatorExtraRange: 0
+    damageIndicatorLocalAdd: {x: 0, y: 0, z: 0}
+    hasEquipment: 0
+    equipments: 
+    equipmentHoldOffsets: []
+    legMat: {fileID: 2100000, guid: 3995650e4b12c400d9e0666f2ad0bbed, type: 2}
+    armMat: {fileID: 0}
+    tailMat: {fileID: 2100000, guid: 3995650e4b12c400d9e0666f2ad0bbed, type: 2}
+    feetMat: {fileID: 2100000, guid: 3995650e4b12c400d9e0666f2ad0bbed, type: 2}
+    handMat: {fileID: 0}
+    wingMat: {fileID: 0}
+  audio:
+    alertClips:
+    - {fileID: 8300000, guid: 718991f0a810b40baa9ff9f0244d84b5, type: 3}
+    alertPitchMin: 0.4
+    alertPitchMax: 0.7
+    alertVolumeMin: 0.25
+    alertVolumeMax: 0.275
+    attackPrepareClips:
+    - {fileID: 8300000, guid: 0413b7ec12e37458b80be83cdd241450, type: 3}
+    attackPreparePitchMin: 0.5
+    attackPreparePitchMax: 0.7
+    attackPrepareVolumeMin: 0.25
+    attackPrepareVolumeMax: 0.275
+    attackDoClips:
+    - {fileID: 8300000, guid: c8dcd09b4bf744a3f8a4e78629865fa6, type: 3}
+    attackDoPitchMin: 0.4
+    attackDoPitchMax: 0.7
+    attackDoVolumeMin: 0.125
+    attackDoVolumeMax: 0.15
+    hurtClips:
+    - {fileID: 8300000, guid: 773fa38c237b54b2c860ff0151f22549, type: 3}
+    - {fileID: 8300000, guid: 28f1c4e64500949f792de9da0d09a8ae, type: 3}
+    hurtPitchMin: 0.4
+    hurtPitchMax: 0.7
+    hurtVolumeMin: 0.125
+    hurtVolumeMax: 0.15
+    deadClips:
+    - {fileID: 8300000, guid: 709e5c3cc3fd34f1bab560b71c61b97e, type: 3}
+    deadPitchMin: 0.4
+    deadPitchMax: 0.7
+    deadVolumeMin: 0.25
+    deadVolumeMax: 0.275
+  attacks:
+  - attackType: 1
+    damageType: 0
+    rangedShootFromType: 2
+    rangedAttackType: 1
+    sprayCount: 2
+    sprayInterval: 16
+    healAmount: 0
+    healRadius: 0
+    rangedSpeedFactor: 1
+    rangedGravityFactor: 1.5
+    rangedSideOffMax: {x: -0.125, y: 0.125}
+    rangedFwdOffMax: {x: -0.125, y: 0.125}
+    rangedUpOffMax: {x: -0.125, y: 0.125}
+    leaveFireTrail: 0
+    fireTrailProjectilePrefab: {fileID: 0}
+    fireTrailRate: 0
+    fireTrailDirOffMin: {x: 0, y: 0, z: 0}
+    fireTrailDirOffMax: {x: 0, y: 0, z: 0}
+    damage: 1
+    fwdForceFac: 0.5
+    stopChaseDstAdd: 2
+    projectilePrefab: {fileID: 4557873713252131390, guid: dc30efb74ff404dfa819c828710d97c6,
+      type: 3}
+    damageDealExtraRadius: 0
+    damageDealSpawnLocalAdd: {x: 0, y: 0, z: 0}
+    attackPrepareDur: 40
+    attackDoDur: 80
+    minionSpawnDatas: []
+    facePlayer: 0
+    openMouthWhenPreparing: 0
+    weight: 10
+  - attackType: 0
+    damageType: 0
+    rangedShootFromType: 0
+    rangedAttackType: 0
+    sprayCount: 0
+    sprayInterval: 0
+    healAmount: 0
+    healRadius: 0
+    rangedSpeedFactor: 0
+    rangedGravityFactor: 0
+    rangedSideOffMax: {x: 0, y: 0}
+    rangedFwdOffMax: {x: 0, y: 0}
+    rangedUpOffMax: {x: 0, y: 0}
+    leaveFireTrail: 0
+    fireTrailProjectilePrefab: {fileID: 0}
+    fireTrailRate: 0
+    fireTrailDirOffMin: {x: 0, y: 0, z: 0}
+    fireTrailDirOffMax: {x: 0, y: 0, z: 0}
+    damage: 1
+    fwdForceFac: 2.5
+    stopChaseDstAdd: 0
+    projectilePrefab: {fileID: 0}
+    damageDealExtraRadius: 0
+    damageDealSpawnLocalAdd: {x: 0, y: 0, z: 0}
+    attackPrepareDur: 25
+    attackDoDur: 50
+    minionSpawnDatas: []
+    facePlayer: 0
+    openMouthWhenPreparing: 0
+    weight: 10
